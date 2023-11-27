@@ -1,69 +1,43 @@
-## Foundry
+# Raygo
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This is an educational project from RareSkills [UniswapV2 Book](https://www.rareskills.io/uniswap-v2-book) where I build UniswapV2 from scratch using modern solidity and using gas optimised library
+## 🚀 About Me
+Blockchain developer specialise in security
+-----------------------------------------------------
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
+*   🔐 Smart Contract Auditor | Solidity
+*   👨‍🔬 Blockchain Engineer
+*   📫 You can reach me for consulting, stateful fuzz test and audits on [X](https://twitter.com/0xFave), [Cantina](https://cantina.xyz/u/0xfave), [C4](https://code4rena.com/@0xfave)
+*   🤝  I'm open to collaborating on Smart contract development and Audits
+*   ⚡  I love working on AMMs, Protocols built on Uniswap Concentrated Liquidity MM, Intent Centric Protocols
 ## Documentation
 
-https://book.getfoundry.sh/
+[Rareskills UniswapV2 book](https://www.rareskills.io/post/build-your-own-uniswap)
 
-## Usage
 
-### Build
+## Run Locally
 
-```shell
-$ forge build
+Clone the project
+
+```bash
+  git clone https://github.com/0xfave/raygo.git
 ```
 
-### Test
+Go to the project directory
 
-```shell
-$ forge test
+```bash
+  cd my-project
 ```
 
-### Format
+Install dependencies
 
-```shell
-$ forge fmt
+```bash
+  forge install
 ```
 
-### Gas Snapshots
+Run test
 
-```shell
-$ forge snapshot
+```bash
+  forge test
 ```
 
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
-# raygo
-# raygo
-# raygo
